@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.cheatly.ssc2"
+        versionCode = "13"
+        version     = "1.3.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Subway Surfers Cheats</name>
+
+    <description>
+        SSC
+    </description>
+
+    <author href="http://www.cheat.ly" email="support@cheat.ly">
+        Cheatly
+    </author>
+
+    <gap:platform name="android" />
+
+    <icon src="data/img/icon.png" />
+
+    <gap:splash src="data/img/splash.jpg" />
+
+    <feature name="http://api.phonegap.com/1.0/network"/>
+
+    <preference name="android-minSdkVersion" value="14" />
+
+</widget>

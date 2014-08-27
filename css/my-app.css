@@ -1,0 +1,148 @@
+/* Tab bar icons */
+i.home {
+    width: 28px;
+    height: 30px;
+    background-image: url('../data/img/home.png');
+}
+.active i.home {
+    background-image: url('../data/img/home_active.png');
+}
+i.cheats {
+    width: 28px;
+    height: 30px;
+    background-image: url('../data/img/cheats.png');
+}
+.active i.cheats {
+    background-image: url('../data/img/cheats_active.png');
+}
+i.guide {
+    width: 28px;
+    height: 30px;
+    background-image: url('../data/img/guide.png');
+}
+.active i.guide {
+    background-image: url('../data/img/guide_active.png');
+}
+i.videos {
+    width: 28px;
+    height: 30px;
+    background-image: url('../data/img/video.png');
+}
+.active i.videos {
+    background-image: url('../data/img/video_active.png');
+}
+i.about {
+    width: 28px;
+    height: 30px;
+    background-image: url('../data/img/about.png');
+}
+i.close {
+    width: 23px;
+    height: 23px;
+    background-image: url('../data/img/close.png');
+}
+i.app_icon {
+    width: 43px;
+    height: 43px;
+    margin-top: -3px;
+    background-image: url('../data/img/icon.png');
+    border: solid 1px #FF8040;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+.app_icon_big{
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    border: solid 1px #f7f7f8;
+    width:80%;
+    height:80%;
+    max-width:512px;
+    max-height:512px;
+}
+
+.badge.badge-orange {
+    background: #ff8040;
+    color: #fff;
+}
+
+.navbar {
+
+    background: #f7f7f8;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.list-block .item-link .item-inner {
+    background-image: url("data:image/svg+xml;charset=utf-8,<svg viewBox='0 0 60 120' xmlns='http://www.w3.org/2000/svg'><path d='m60 61.5-38.25 38.25-9.75-9.75 29.25-28.5-29.25-28.5 9.75-9.75z' fill='#333333'/></svg>");
+    background-size: 10px 20px;
+
+}
+
+.list-block .accordion-item-expanded .accordion-toggle .item-inner, .list-block .accordion-item-expanded > .item-link .item-inner {
+    background-image: url("data:image/svg+xml;charset=utf-8,<svg viewBox='0 0 60 120' xmlns='http://www.w3.org/2000/svg'><path d='m60 61.5-38.25 38.25-9.75-9.75 29.25-28.5-29.25-28.5 9.75-9.75z' transform='translate(115, 30) rotate(90)' fill='#FF8040'/></svg>");
+    background-repeat: no-repeat;
+}
+
+font-face {
+    font-family: 'GoodDog';
+    src: url('fonts/font.eot');src: url('fonts/font.eot?#iefix') format('embedded-opentype'),url('fonts/font.woff') format('woff'),url('fonts/font.ttf') format('truetype'),url('fonts/font.svg#wf') format('svg');
+}
+
+.list-block .accordion-item .content-block, .list-block .accordion-item .list-block {
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 20px;
+}
+
+.list-block .item-title {
+    font-weight: bolder;
+}
+
+
+.fontchg{
+    font-family: GoodDog, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.searchbar {
+    background:#333333;
+}
+.searchbar .searchbar-cancel {
+    color: #FF8040;
+}
+.navbar {
+    background: #FF8040;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.navbar .center {
+    font-weight:bolder;
+}
+
+.list-block {
+    margin: 0px;
+}
+
+.center{
+    text-align: center;
+}
+.fright{
+    float:right;
+}
+.fleft{
+    float:left;
+}
+
+.desc{
+    margin-bottom: 10px;
+}
+
+#about_law{
+    font-size: 10px;
+}
+
+.row{
+    /*max-height: 400px;*/
+}
